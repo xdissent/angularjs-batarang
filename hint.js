@@ -3,7 +3,7 @@
  *
  * This gets loaded into the context of the app you are inspecting
  */
-require('./loader.js');
+require('./bower_components/angular-loader/angular-loader.js');
 require('angular-hint');
 
 angular.hint.onMessage = function (moduleName, message, messageType, category) {
